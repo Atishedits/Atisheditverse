@@ -96,3 +96,34 @@
     padding: 70px 0;
   }
 }
+
+/* VERTICAL REELS SHOWCASE */
+
+.work-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+}
+
+.work-visual.work-video {
+  aspect-ratio: 9 / 16;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  background: #000;
+  border-radius: 12px;
+}
+
+.work-video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .work-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
