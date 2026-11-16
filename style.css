@@ -127,3 +127,25 @@
     gap: 14px;
   }
 }
+/* Contact Form Spacing Fix */
+.booking-form {
+    gap: 16px !important;
+}
+
+.booking-form .form-two {
+    gap: 16px !important;
+}
+
+.booking-form label {
+    margin-bottom: 0 !important;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    margin-top: 8px;
+}
+
+.booking-form .form-heading {
+    margin-bottom: 5px;
+}
